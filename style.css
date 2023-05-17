@@ -8,12 +8,14 @@ h2{
     /* card head */
   color: hsl(0, 0%, 100%);
   font-size: xx-large;
+   padding-left: 34px;
 }
 
 p{
     /* card info */
    color:  hsl(0, 0%, 100%, 0.75);
    margin-top: -60px;
+   padding-left: 34px;
  
 }
 
@@ -23,6 +25,7 @@ h3{
     margin-top: 0px;
     font-size: x-large; 
     word-spacing: 35px;
+    padding-left: 34px;
 }
 
 span{
