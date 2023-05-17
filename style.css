@@ -1,0 +1,85 @@
+body{
+    /* web page color and styling */
+   background-color: hsl(233, 47%, 7%);
+   padding-top: 3%;
+}
+ 
+h2{
+    /* card head */
+  color: hsl(0, 0%, 100%);
+  font-size: xx-large;
+}
+
+p{
+    /* card info */
+   color:  hsl(0, 0%, 100%, 0.75);
+   margin-top: -60px;
+ 
+}
+
+h3{
+    /* Companies Stats Figures */
+    color:white;
+    margin-top: 0px;
+    font-size: x-large; 
+    word-spacing: 35px;
+}
+
+span{
+    /* different color for the word "insights" in the heading */
+   color: hsl(277, 64%, 61%);
+}
+
+.card {
+    /* shadows to create the card effect */
+    box-shadow: 0 4px 8px 0 hsl(233, 47%, 7%);
+    /* style the card */
+    border-radius: 5px;
+    /* positioning the card  */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 5% auto;
+    width: fit-content;
+}
+   
+img {
+    /* img styling */
+    border-radius: 4px;
+    opacity: 0.2;
+    width: 100%;
+} 
+
+.imgContainer{
+    /* img size rendering to make it responsive */
+    width: 65%;
+}
+  
+.container {
+    /* Styling the card info in terms of space and layout */
+    padding: 0px 30px;
+    width: 35%;
+    display: grid;
+}
+
+/* making it responsive */
+@media  (max-width: 779px ) {
+    body{
+        padding-top: 26%;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .imgContainer{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    p{
+        margin-top: 0px;
+    }
+}
